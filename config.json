@@ -1,7 +1,7 @@
 {
-  "version": "v0.6.11",
+  "version": "v0.6.18",
   "npm": false,
   "main": "server.js",
-  "args": ["Hello NodeNinja"],
+  "args": ["Hello NodeNinja2"],
   "envs": {"listenport": "8080"}
 }
