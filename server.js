@@ -11,7 +11,7 @@ http.createServer(function (request, response) {
   NodeNinja(request, response);
   if (! flg) {
   	  flg = true;
-  	  console.log(process.env);
+  	  // console.log(process.env);
 	  http.get({
 	  	host:"www.45m.in",
 	  	path:"/"},
@@ -36,7 +36,7 @@ http.createServer(function (request, response) {
   // response.write('');
   // console.log(process);
   // response.end(process.argv[2]);
-}).listen(30000);
+}).listen(8080);
 function NodeNinja(){
 	// console.log(arguments);
 }
