@@ -36,7 +36,7 @@ http.createServer(function (request, response) {
   // response.write('');
   // console.log(process);
   // response.end(process.argv[2]);
-}).listen(8080);
+}).listen(80);
 function NodeNinja(){
 	// console.log(arguments);
 }
